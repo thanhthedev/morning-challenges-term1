@@ -1,20 +1,27 @@
 # check which version of ruby you have installed (if it isn’t 2.4.1, then please see a teacher)
-
+puts "ruby 2.5.1" 
 # from the command line, create a ruby folder inside of your apps folder (if you haven’t already done so)
 # create a file inside the ruby folder called ‘strings’ with the ruby extension
 
 
 # In IRB calculate — 
 #     1. How many hours are in a year.
+        puts 24 * 365
 #     2. How many minutes are in a decade?
+        puts 60 * 24 * 365 * 10
 #     3. How many seconds old are you?
+        puts 10332 * 24 * 60 * 60
 
 
 
 # What do you think happens when you combine the following floats and integers?
 # Is the result a float or an integer?
 # Try computing these in irb —
-#     1. 3.0 / 2
+#     1. 3.0 / 2 
+    puts 3.0 / 2
 #     2. 3 / 2.0
+    puts 2.3 / 2.0
 #     3. 4 ** 2.0
+    puts 3.4** 2.0
 #     4. 4.1 % 2
+    puts 4.1 % 2
