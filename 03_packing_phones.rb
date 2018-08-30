@@ -9,15 +9,13 @@
 #       width: 5cm
 #       length: 7.4cm 
 #       depth: 4cm 
-companyphone = {width: 5, length: 7.4, depth: 4}
-volphone = companyphone[:width] * companyphone[:length] * companyphone[:depth]
+companyphone = [5, 7.4, 4]
 
-boxmeasurements = {width: 32, length: 43, height: 22.1}
-volbox = boxmeasurements[:width] * boxmeasurements[:length] * boxmeasurements[:height]
+boxmeasurements = [32, 43, 22.1}
 
-totalphones = (volbox / volphone)
-    puts "#{totalphones.to_i} phones will fit in box"
-    
+box
+6.4 * 5.8 * 5.5
+
 #    The Company need to know how many of the phones in
 #    the new packaging can fit into a box that measures:
 #       width: 32cm
