@@ -14,6 +14,9 @@
 # ruby tests/04_vowels_test.rb
 #
 
-def vowels (string)
+def vowels(string)
   # Your code here
+  string.scan(/[aeiou]/).count
 end
+
+puts vowels("aeiou")
