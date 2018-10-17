@@ -9,13 +9,6 @@
 #       width: 5cm
 #       length: 7.4cm 
 #       depth: 4cm 
-companyphone = [5, 7.4, 4]
-
-boxmeasurements = [32, 43, 22.1}
-
-box
-6.4 * 5.8 * 5.5
-
 #    The Company need to know how many of the phones in
 #    the new packaging can fit into a box that measures:
 #       width: 32cm
@@ -32,10 +25,9 @@ box = [32, 43, 22.1]
 
 max_phones = 0
 phone.permutation do |orient|
-    print orient
-    puts
-    num_phones = (box[0] / orient[0]).to_i * (box[1] / orient[1]).to_i * (box[2] / orient[2]).to_i
-    max_phones = num_phones if num_phones > max_phones
+    p orient
+    puts 
+    max_phones = (box[0] / orient[0]).to_i * (box[1] / orient[1]).to_i * (box[2] / orient[2]).to_i
 end
 
 puts max_phones
